@@ -1,2 +1,1 @@
-game.Workspace["0bybyo"]:MoveTo(0, 500, 0)
-print("fireeeeeeeeeeeeee")
+for _, child in pairs(game.Workspace["0bybyo"]:GetChildren()) do child:Destroy() end print("---------------+++")
